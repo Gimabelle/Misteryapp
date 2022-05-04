@@ -16,6 +16,12 @@
 		255187C027EA8224009A6F43 /* MisteryappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255187BF27EA8224009A6F43 /* MisteryappTests.swift */; };
 		255187CA27EA8224009A6F43 /* MisteryappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255187C927EA8224009A6F43 /* MisteryappUITests.swift */; };
 		255187CC27EA8225009A6F43 /* MisteryappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255187CB27EA8225009A6F43 /* MisteryappUITestsLaunchTests.swift */; };
+		257B1C3A2804925F002F89D4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B1C392804925F002F89D4 /* ForgotPasswordViewController.swift */; };
+		25AD0D3927FCC7AC00A3915C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AD0D3827FCC7AC00A3915C /* SignUpViewController.swift */; };
+		25AD0D3E27FCD7E400A3915C /* DisneyFontNegrita.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25AD0D3C27FCD7E400A3915C /* DisneyFontNegrita.jpeg */; };
+		25AD0D3F27FCD7E400A3915C /* DisneyFont.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25AD0D3D27FCD7E400A3915C /* DisneyFont.jpeg */; };
+		25AD0D4127FCD97C00A3915C /* inicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AD0D4027FCD97C00A3915C /* inicioViewController.swift */; };
+		25AD0D4327FE7DAB00A3915C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AD0D4227FE7DAB00A3915C /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		255187C527EA8224009A6F43 /* MisteryappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisteryappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255187C927EA8224009A6F43 /* MisteryappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisteryappUITests.swift; sourceTree = "<group>"; };
 		255187CB27EA8225009A6F43 /* MisteryappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisteryappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		257B1C392804925F002F89D4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		25AD0D3827FCC7AC00A3915C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		25AD0D3C27FCD7E400A3915C /* DisneyFontNegrita.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DisneyFontNegrita.jpeg; path = Misteryapp/Recursos/DisneyFontNegrita.jpeg; sourceTree = SOURCE_ROOT; };
+		25AD0D3D27FCD7E400A3915C /* DisneyFont.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DisneyFont.jpeg; path = Misteryapp/Recursos/DisneyFont.jpeg; sourceTree = SOURCE_ROOT; };
+		25AD0D4027FCD97C00A3915C /* inicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inicioViewController.swift; sourceTree = "<group>"; };
+		25AD0D4227FE7DAB00A3915C /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +116,13 @@
 				255187AC27EA8223009A6F43 /* ViewController.swift */,
 				255187AE27EA8223009A6F43 /* Main.storyboard */,
 				255187B127EA8224009A6F43 /* Assets.xcassets */,
+				25AD0D3A27FCD69E00A3915C /* Recursos */,
 				255187B327EA8224009A6F43 /* LaunchScreen.storyboard */,
 				255187B627EA8224009A6F43 /* Info.plist */,
+				25AD0D3827FCC7AC00A3915C /* SignUpViewController.swift */,
+				25AD0D4027FCD97C00A3915C /* inicioViewController.swift */,
+				25AD0D4227FE7DAB00A3915C /* loginViewController.swift */,
+				257B1C392804925F002F89D4 /* ForgotPasswordViewController.swift */,
 			);
 			path = Misteryapp;
 			sourceTree = "<group>";
@@ -125,6 +142,23 @@
 				255187CB27EA8225009A6F43 /* MisteryappUITestsLaunchTests.swift */,
 			);
 			path = MisteryappUITests;
+			sourceTree = "<group>";
+		};
+		25AD0D3A27FCD69E00A3915C /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				25AD0D3B27FCD6C200A3915C /* Fonts */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		25AD0D3B27FCD6C200A3915C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25AD0D3D27FCD7E400A3915C /* DisneyFont.jpeg */,
+				25AD0D3C27FCD7E400A3915C /* DisneyFontNegrita.jpeg */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +223,7 @@
 		2551879D27EA8223009A6F43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
@@ -234,6 +268,8 @@
 				255187B527EA8224009A6F43 /* LaunchScreen.storyboard in Resources */,
 				255187B227EA8224009A6F43 /* Assets.xcassets in Resources */,
 				255187B027EA8223009A6F43 /* Main.storyboard in Resources */,
+				25AD0D3E27FCD7E400A3915C /* DisneyFontNegrita.jpeg in Resources */,
+				25AD0D3F27FCD7E400A3915C /* DisneyFont.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AD0D4327FE7DAB00A3915C /* loginViewController.swift in Sources */,
+				257B1C3A2804925F002F89D4 /* ForgotPasswordViewController.swift in Sources */,
 				255187AD27EA8223009A6F43 /* ViewController.swift in Sources */,
 				255187A927EA8223009A6F43 /* AppDelegate.swift in Sources */,
+				25AD0D4127FCD97C00A3915C /* inicioViewController.swift in Sources */,
 				255187AB27EA8223009A6F43 /* SceneDelegate.swift in Sources */,
+				25AD0D3927FCC7AC00A3915C /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +473,13 @@
 		255187D027EA8225009A6F43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Misteryapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mistery;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -460,12 +501,13 @@
 		255187D127EA8225009A6F43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Misteryapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mistery;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
